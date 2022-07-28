@@ -4,8 +4,6 @@
 
 1. [Geek for Geeks ecomm site](https://www.geeksforgeeks.org/e-commerce-website-using-django/)
 2. [Official Django Documentation](https://docs.djangoproject.com/en/4.0/)
-3. test
-4. test
 
 ![djangologo](images/djangologo.png)
 
@@ -61,7 +59,7 @@
 * The response can be the HTML contents of a web page, or a redirect, or a 404 error, or an XML document, etc.
   * _Django has the concept of “views” to encapsulate the logic responsible for processing a user’s request and for returning the response._
   * [Middleware](https://docs.djangoproject.com/en/4.0/topics/http/middleware/) is a light, low-level plug-in system for globally altering Django's input or output
-* ![django-views](images/django-views.jpg)
+![django-views](images/django-views.jpg)
 
 ---
 
