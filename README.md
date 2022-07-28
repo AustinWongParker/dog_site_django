@@ -3,13 +3,11 @@
 ### Resources used:
 
 1. [Geek for Geeks ecomm site](https://www.geeksforgeeks.org/e-commerce-website-using-django/)
-2. test
+2. [Official Django Documentation](https://docs.djangoproject.com/en/4.0/)
 3. test
 4. test
 
 ![djangologo](images/djangologo.png)
-
-Notes on Django
 
 ---
 
@@ -44,6 +42,7 @@ Notes on Django
 
 ### Models
 * [Models](https://www.geeksforgeeks.org/django-models/) are a built-in django feature that is used to create tables, their fields, and various constraints.
+  * _Django provides an abstraction layer (the “models”) for structuring and manipulating the data of your web application. Learn more about it below:_
   * It's like the SQL db for Django. The models simplify this task and organize tables into models. 
   * Generally, each Django model will map to a single database table.
   * You can use the Django admin page to create, update, delete or retrieve fields of a model + more.
@@ -58,4 +57,15 @@ Notes on Django
 ---
 
 ### Views
-![django-views](images/django-views.jpg)
+* [View Function](https://docs.djangoproject.com/en/4.0/topics/http/views/) is a Python function that takes a web request and returns a web response.
+* The response can be the HTML contents of a web page, or a redirect, or a 404 error, or an XML document, etc.
+  * _Django has the concept of “views” to encapsulate the logic responsible for processing a user’s request and for returning the response._
+  * [Middleware](https://docs.djangoproject.com/en/4.0/topics/http/middleware/) is a light, low-level plug-in system for globally altering Django's input or output
+* ![django-views](images/django-views.jpg)
+
+---
+
+### Templates
+* [Templates](https://docs.djangoproject.com/en/4.0/topics/templates/) Django needs a convenient way to generate HTML dynamically. Most common approach relies on templates. A template contains the static parts of the desired HTML output.
+  * _The template layer provides a designer-friendly syntax for rendering the information to be presented to the user._
+  * Default template: Django template language (DTL)
