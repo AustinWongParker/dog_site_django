@@ -1,0 +1,7 @@
+1. Virtual Environment
+    - Windows: .\env\Scripts\activate
+    - Unix/macOS: source env/bin/activate
+    - leave virtual env: deactivate
+2. python manage.py runserver
+    - this will run the website on port 8000
+    - access it here: http://127.0.0.1:8000/
