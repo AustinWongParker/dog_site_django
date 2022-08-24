@@ -6,3 +6,16 @@
 2. python manage.py runserver (need to cd into dog_site)
     - this will run the website on port 8000
     - access it here: http://127.0.0.1:8000/
+
+~~~
+
+Useful Commands
+---
+
+python manage.py runserver
+python manage.py makemigrations blog
+python manage.py migrate blog
+
+
+~ Django Admin
+    - python manage.py createsuperuser

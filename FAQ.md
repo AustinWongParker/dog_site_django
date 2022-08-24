@@ -11,3 +11,9 @@ A: We need to add the new apps we create into the settings.py INSTALLED_APPS lis
 Q: Where are apps in relation to the file structure?\
 A: For this specific project, we will want it on the same directory as dog_site. So, if we created a posts app, it will be in dog_site_django AND on the same layer as dog_site.
 
+Q: Flow?\
+A: Create project -> create app (like polls/blog) -> create model (models are our objects. This is where we define our 'blog' posts -- Remember, models are how we maintain the data.) -> create tables for models in your database\
+    - Check how_to_run for commands on migrations
+
+Q: How do I add, edit, and/or delete posts (or whatever app you have) that you modeled it after?\
+A: You can use the Django Admin
