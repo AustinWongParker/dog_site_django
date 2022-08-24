@@ -5,7 +5,7 @@
 
 ### Django Architecture
 ![djangoarch](images/djangoarch.png)
-* Called MVT Structure (Models / Views / Templates). This is a pattern for a developing web applications.
+* Called MVT Structure (Models / Views / Templates). This is a pattern for developing web applications.
   * "Model: The model is going to act as the interface of your data. It is responsible for maintaining data. It is the logical data structure behind the entire application and is represented by a database (generally relational databases such as MySql, Postgres)."
   * "View: The View is the user interface — what you see in your browser when you render a website. It is represented by HTML/CSS/Javascript and Jinja files."
   * "Template: A template consists of static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted."
@@ -61,3 +61,8 @@
 * [Templates](https://docs.djangoproject.com/en/4.0/topics/templates/) Django needs a convenient way to generate HTML dynamically. Most common approach relies on templates. A template contains the static parts of the desired HTML output.
   * _The template layer provides a designer-friendly syntax for rendering the information to be presented to the user._
   * Default template: Django template language (DTL)
+
+---
+### Forms
+* [Forms](https://docs.djangoproject.com/en/4.1/topics/forms/) provide Django with a rich framework to facilitate manipulating/creating HTML forms.
+  * A form is a collection of elements inside < form > ... < /form >. This allows a visitor to do things like enter text, select options, etc - then, it sends that info to the server.
