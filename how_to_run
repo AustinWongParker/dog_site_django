@@ -1,4 +1,5 @@
 1. Virtual Environment
+  CD into dog_site_django, then run the following:
     - Windows: .\env\Scripts\activate
     - Unix/macOS: source env/bin/activate
     - leave virtual env: deactivate
