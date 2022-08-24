@@ -7,3 +7,7 @@ A: Django does this automatically and you'll have to add . at the end of it to c
 
 Q: What do we add to our INSTALLED_APPS?\
 A: We need to add the new apps we create into the settings.py INSTALLED_APPS list.
+
+Q: Where are apps in relation to the file structure?\
+A: For this specific project, we will want it on the same directory as dog_site. So, if we created a posts app, it will be in dog_site_django AND on the same layer as dog_site.
+
